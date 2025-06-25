@@ -7,7 +7,7 @@ Aqui você encontrará minhas tentativas de recriar formas e figuras usando apen
 ## 📁 Estrutura do Repositório
 
 
-- Cada pasta representa uma *Desafio*.
+- Cada pasta representa um *Desafio*.
 - Os arquivos `.html` contêm as soluções individuais de cada desafio.
 
 ## 💡 O que é CSSBattle?
