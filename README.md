@@ -9,6 +9,7 @@ Aqui você encontrará minhas tentativas de recriar formas e figuras usando apen
 
 - Cada pasta representa um *Desafio*.
 - Os arquivos `.html` contêm as soluções individuais de cada desafio.
+- O arquivo *template* contém o código base usado nos desafios.
 
 ## 💡 O que é CSSBattle?
 
