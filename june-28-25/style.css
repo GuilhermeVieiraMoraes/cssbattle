@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: grey;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #FFFFFF;
+    position: absolute;
+}
+
+.teste{
+    background: #9CBBC2;
+    width: 160px;
+    height: 125px;
+    margin: 0 0 0 120px;
+    border-right: 80px solid #5A8D9A;
+    position: relative;
+    -webkit-box-reflect: below 50px;
+}
+
+.teste::before{
+    content: '';
+    position: absolute;
+    height:45px;
+    width:80px;background: #749FAA; bottom:0;
+}
+
+p{
+    height:140px;
+    width:340px;
+    border:45px solid #9CBBC2;margin:-45px 0 0 30px;
+    background-color:white;
+}
