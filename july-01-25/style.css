@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #51A499;
+    position: absolute;
+}
+
+p{
+    --main:#23384B;
+    --second:#51A499;
+    --radius:5cm;
+    background: linear-gradient(
+        var(--main) 40px,
+        var(--second) 0 180px,
+        var(--main) 0
+    );
+    height:220px;
+    width:80px;
+    margin:50px 120px;border-radius:var(--radius);
+}
+
+[s]{
+    margin: -270px 200px;
+    --main: #51A499;--second:#23384B;
+}
