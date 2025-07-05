@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: radial-gradient(
+        1q at 50% 100%,
+        #D9D9D9 75px,
+        #000 0 135px,
+        #0000
+    )50% -145px,
+    linear-gradient(
+        90deg,
+        #5A9F48 65px,
+        #D9D9D9 0 125px,
+        #5A9F48 0 275px,
+        #D9D9D9 0 335px,
+        #5A9F48 0
+    )0px 0px/ 100%175px repeat-x,
+    linear-gradient(
+        90deg,
+        #5A9F48 145px,
+        #D9D9D9 0 255px,
+        #5A9F48 0
+    );
+    position: absolute;
+}
+
