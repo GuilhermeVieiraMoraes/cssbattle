@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #556D7F;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    ;
+}
+
+.teste{
+    background: #FADE8B;
+    width: 150px;
+    height: 140px;
+    position: absolute;
+}
+
+.c{
+    width:125px;
+    background: linear-gradient(
+      90deg,
+      #FADE8B var(--m, 40px),
+      #556D7F 0 var(--s,60px),
+      #FADE8B 0
+    );
+    height:50px;
+    position:absolute;
+    left:0px;
+}
+
+.r{
+    left:275px;
+    --m:65px;
+    --s: 85px;
+}
