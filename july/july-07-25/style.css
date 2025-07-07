@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #32295A;
+    position: absolute;
+}
+
+.teste{
+    background: conic-gradient(
+        at 370px 270px,
+        #0000 75%,
+        #48BF7D 0
+    );
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius:50%;
+}
