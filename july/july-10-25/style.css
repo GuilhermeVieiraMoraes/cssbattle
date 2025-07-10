@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #7AA70A;
+    position: absolute;
+}
+
+.teste{
+    width: 170px;
+    height: 80px;
+    background: conic-gradient(
+      at 40px,
+      #FFFFFF 90deg,
+      #7AA70A 0 180deg,
+      #FFFFFF 0
+    );
+    margin:40px 0px 0px 107px;
+    border-radius:100px;
+}
+
+.curve{
+    margin: 0px 0px 0px 107px;
+    border:40px solid white;
+    border-left:0;
+    height:140px;
+    background:#7AA70A;
+    width:170px;
+    border-radius:0px 70px 70px 40px;
+  }
+  .curve::before{
+    content:'';
+    position:absolute;
+    background:#7AA70A;
+    height:50px;
+    width:40px;
+    top:120px;
+  }
+  .curve::after{
+    content:'';
+    position:absolute;
+    background:#FFFFFF;
+    height:80px;
+    width:40px;
+    top:80px;
+    border-bottom-left-radius:30px;
+  }
