@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #F7BED9;
+    position: absolute;
+    display: flex;
+    
+}
+
+.wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 20px;
+}
+
+.ball{
+    height:40px;
+    width: 40px;
+    background:#F069AB;
+    border-radius:50%;
+}
+
+.row{
+    background:#EC0076;
+    width:100px;
+    border-radius:100px;
+}
