@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    background: #48BF7D;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste {
+    width: 370px;
+    height: 270px;
+    background: linear-gradient(#0000 80px,
+            #48BF7D 0 95px,
+            #0000 0 175px,
+            #48BF7D 0 190px,
+            #0000 0), repeating-conic-gradient(at 30px 80px,
+            #48BF7D 90deg,
+            #FFFFFF 0 180deg,
+            #48BF7D 0 270deg)0 0 / 170px 60px;
+}
