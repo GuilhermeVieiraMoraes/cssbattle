@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #CEEDFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:-2;
+}
+
+.teste{
+    background: #05476C;
+    width: 350px;
+    height: 80px;
+}
+
+.ball{
+    position:absolute;
+    top:-50px;
+    z-index:-1;
+    background:#2BBBF3;
+    height:200px;
+    width:350px;
+    border-radius:155px 155px  0 0;
+}
+
+.ball::after{
+    content:'';
+    width: 300px;
+    height:300px;
+    left:25px;
+    top:-76px;
+    position:absolute;
+    background:#CEEDFF;
+    border-radius:50%;
+  }
