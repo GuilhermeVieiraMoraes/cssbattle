@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #32295A;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    background: radial-gradient(
+      1q at 150px 135px,
+      #32295A 25px,
+      #0000 0
+    ),radial-gradient(
+      1q at 50% 50%,
+      #48BF7D 50px,
+      #0000 0
+    ),radial-gradient(
+      1q at 150px 110px,
+      #32295A 100px,
+      #48BF7D 0
+    );
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    
+}
