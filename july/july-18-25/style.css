@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #F28BBB;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.teste{
+    width: 300px;
+    height: 380px;
+    position: absolute;
+    border-radius:380px;
+    border: 25px solid #B03F7D;
+   
+}
+
+.square{
+    position:absolute;
+    background:#680039;
+    height:80px;
+    width:135px;
+    top:94px;
+    left:26px;
+    box-shadow: 214px 0px #680039;
+}
