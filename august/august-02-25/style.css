@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #31938C;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    width: 220px;
+    height: 160px;
+    background: #31938C;
+    border-radius:20px;
+    border:30px solid #FFFFFF;
+    border-top: 60px solid #FFFFFF;
+}
+
+.pattern{
+    height:160px;
+    width:220px;
+    background:conic-gradient(
+      at 30px 30px ,
+      #31938C 75%,
+      #FFFFFF 0 
+    )20px 15px / 50px 50px;
+}
+.pattern::after{
+    content:'';
+    background:#31938C;
+    position:absolute;
+    height:60px;
+    width:60px;
+    box-shadow: 160px 97px #31938C;
+}
