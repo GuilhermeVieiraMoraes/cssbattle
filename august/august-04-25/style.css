@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #D94E4E;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index:1;
+}
+
+.teste{
+    width: 60px;
+    height: 240px;
+    border: 20px solid #EBE77E;
+    margin:12px 12px 0 12px;
+    border-radius: 55px 45px 45px 55px;
+}
+
+.barra{
+    position:absolute;
+    width:400px;
+    height:40px;
+    background:#D94E4E;
+    top:126px;
+}
+
+.barra::before{
+    content:'';
+    position:absolute;
+    height:80px;
+    width:190px;
+    background:#EBE77E;
+    left:100px;
+    top:-20px;
+    z-index:-1;
+  }
