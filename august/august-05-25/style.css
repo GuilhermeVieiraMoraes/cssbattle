@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background:linear-gradient(
+      #423F36 100px,
+      #FEFF58 0 200px,
+      #423F36 0
+    );
+    position: absolute;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    overflow-x: hidden;
+}
+
+.teste{
+    position:absolute;
+    height:60px;
+    width:250px;
+    border-radius: 100%;
+}
+
+.red{
+    background:#D94E4E;
+    left:-125px;
+}
+
+.blue{
+    background:#3E5AA9;
+    right:-125px;
+}
+
+p{
+    position:absolute;
+    height:100px;
+    width:100px;
+    background:#423F36;
+    margin: 0 0 -140px 150px;
+    transform:rotate(45deg);
+    border-radius:20px;
+}
