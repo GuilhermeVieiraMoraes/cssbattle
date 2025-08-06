@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #23384B;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.teste{
+    height:139.5px;
+    width:190px;
+    background:#88EBF8;
+}
+.circle{
+    background:radial-gradient(
+      1q at var(--x,5.6%) 50%,
+      #88EBF8 15px,
+      #23384B 0 35px,
+      #88EBF8 0
+    );
+}
+
+.right{
+    --x:94.3%;
+}
