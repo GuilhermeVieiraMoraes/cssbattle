@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #ffff;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.teste{
+    width: 190px;
+    height: 139.5px;
+    background:#F88889;
+    position:relative;
+    overflow:hidden;
+}
+p{
+    position:absolute;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    border:20px solid #FFFFFF;
+    top:35px;
+    margin:0;
+}
+
+.l{
+    left:-23px;
+}
+
+.r{
+    right:-23px;
+}
