@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: radial-gradient(
+      1q at 50% 96.7%,
+      #5A9F48 60px,
+      #23384B 0 80px,
+      #5A9F48 0
+    )0px 120px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    width: 180px;
+    height: 120px;
+    border: 20px solid #23384B;
+    margin:80px 0 0 0;
+    border-radius:30px;
+    position:relative;
+}
+
+.teste::after{
+    content:'';
+    position:absolute;
+    background:#5A9F48;
+    height:80px;
+    width:40.4px;
+    border:20px solid #23384B;
+    border-bottom:none;
+    bottom:-20px;
+    left:50px;
+}
