@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #F3AC3C;
+    position: absolute;
+}
+
+.teste{
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border-radius:50%;
+    margin:99.5px 0 0 179.6px;
+    box-shadow:-60px 0px,
+      60px 0,
+      0 120px;
+}
+
+.half-circle{
+    position:absolute;
+    height:40px;
+    width:80px;
+    border:40px solid;
+    border-bottom-right-radius:5cm;
+    border-bottom-left-radius:5cm;
+    border-top:none;
+    margin:-20px 0 0 120px;
+}
