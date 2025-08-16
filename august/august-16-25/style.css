@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    background: #4C455B;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle{
+    width: 140px;
+    height: 70px;
+    background: #F3EAD2;
+    border: 30px solid #D96C7B;
+    border-bottom:none;
+    border-radius:5cm 5cm 0 0;
+}
+
+.square{
+    width: 140px;
+    height: 100px;
+    background: #D96C7B;
+    border: 30px solid #F3EAD2;
+    border-top:none;
+}
